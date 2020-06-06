@@ -1,0 +1,1173 @@
+/* ============
+Basic Style hasBeen style 
+
+===============*/
+
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+
+img{
+
+cursor: pointer;
+border: 0;    
+    
+    
+}
+
+a{
+    text-decoration: none;
+
+}
+
+
+ul,ol{
+    list-style: none;
+  
+    
+    
+}
+
+p{
+    line-height: 150%;
+
+    
+}
+
+
+.clear{
+  overflow: hidden;
+    
+}
+
+
+body{
+    
+    height: 1500px;
+    
+    
+}
+/* =========
+Basic Style hasbeen End
+
+=========== */
+
+
+
+/*=====
+main nave bar area start 
+*/
+
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light{
+    color: green;
+    font-size: 14px;
+    font-family: 'Roboto',light;
+   
+        
+}
+
+
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+    position: relative;
+}
+
+.navbar-light .navbar-nav .nav-link:after{
+    
+  content: '';
+    width: 80%;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    background: green;
+    bottom: 0px;
+    opacity: 0;   
+    
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover:after{
+    opacity: 1;
+    
+    
+}
+
+.navbar-light .navbar-nav .nav-link.active:after{
+    
+   opacity: 1; 
+    
+}
+
+
+
+.navbar-light .navbar-nav, .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link.active{
+    color: green;
+    cursor: pointer;
+    
+}
+
+
+
+
+
+
+.nav_bg{
+    background: gray;
+    
+}
+/*=======
+
+main nave area end
+*/
+
+    
+/*==========
+    
+  banner part desigan hasbeen start  
+    
+==========*/    
+
+ section#banner_part{
+        
+     background: url(img/img/banner_img.jpg);      
+    background-repeat: no-repeat;
+     background-size: cover;
+    background-position: center;
+      position: relative;
+          
+        
+    }
+    
+section#banner_part:after{
+    
+content: '';
+width: 100%;
+height: 100%;
+top:0;    
+left: 0;    
+ position: absolute;
+background:rgba(29, 25, 62,0.6);  
+    
+    
+}  
+
+.banner_text{
+z-index: 100;
+position: relative;
+padding-top: 230px;
+padding-bottom: 230px;    
+      
+}
+
+
+.banner_text h2{
+  font-family: 'Playfair Display' black;  
+font-size: 33px;
+color: #ffffff;    
+font-weight: 700;  
+ margin-bottom: 0;
+position: relative;
+}
+
+.banner_text h2:after{
+ position: absolute;  
+ content: '';
+width: 55px;
+height: 2px;
+background: #00e0d0;    
+left: 50%;
+transform: translateX(-50%);
+top: 60px;    
+    
+}
+
+
+
+
+
+.banner_text p{
+font-family: 'Roboto', light;
+font-size: 14px;
+color: #ffffff;
+padding: 60px 95px;
+line-height: 23px;
+margin-bottom: 0;    
+    
+}
+
+.banner_text a{
+    
+  font-family: 'Hammersmith One', sans-serif;
+border:2px solid #00e0d0;
+padding: 14px 30px;
+color: #00e0d0;
+font-weight: 600;    
+text-decoration: none;
+text-transform: uppercase;
+    
+}
+
+
+ .slick-dots {
+    text-align: center;
+    margin: 0 auto;
+    list-style: none;
+     position: absolute;
+     bottom: 70px;
+     left: 50%;
+     transform: translateX(-50%);
+}
+    
+.slick-dots li{
+    
+    display: inline-block;
+    margin-right: 15px;
+    
+}    
+
+.slick-dots li{
+    display: inline-block;
+    margin-right: 15px;
+    width: 20px;
+    height: 20px;
+   background: none;
+    border: 1px solid gray;
+    border: 1px solid gray;
+    border-radius: 50%;
+    line-height: 20px;
+}    
+
+.slick-dots li button{
+    color: transparent;
+    width: 10px;
+ 
+    height: 10px;
+    background:  #00e0d0;
+    border-radius: 50%;
+    line-height: 10px;
+    border: none;
+    text-align: center;
+    opacity: 0;
+    margin: 0;
+    padding-bottom: 3px;
+}
+
+.slick-dots li.slick-active button{
+    
+    opacity: 1;
+    
+}
+
+
+/*======
+
+banner part slide 
+========*/
+.bannerpart_slide{
+    z-index: 90;
+}
+
+/* banner part slide end */
+.navbar{
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    
+}
+
+ 
+    
+/*===========
+    
+   banner part desigan hasbeen end 
+    
+===========*/    
+    
+  /*==========
+
+about part strat 
+============*/
+  
+#about_part{
+  padding: 72px 0px 72px 0;  
+  
+    
+}
+#about_part h3{
+  text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Playfair Display', bold;
+    
+    font-size: 22px;
+    color:#66636d;
+    
+    
+}
+
+.about_text p{
+    
+    padding: 30px 0px;
+    
+    font-family: 'Roboto', light;
+   font-stretch: 14px;
+    color: #c2c1c4;
+    margin-bottom: none;
+    
+}
+
+.about_text a{
+    
+  font-family: 'Hammersmith One', sans-serif;
+border:2px solid #00e0d0;
+padding: 14px 30px;
+color: #00e0d0;
+font-weight: 600;    
+text-decoration: none;
+text-transform: uppercase;
+display: inline-block;
+margin-top: 30px; 
+border-radius: 2px;    
+    
+}
+
+  
+ /*=========
+
+
+abourt part hasbeen end
+==========*/
+/*================
+
+vadeo part hasbeen start 
+
+=============*/
+   
+#video_part{
+    
+   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+
+#video_part:before{
+content: '';    
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;    
+background: rgba(29, 25, 62,0.6); 
+    
+}
+
+.video_icon{
+    
+padding: 200px 0px;
+  z-index: 100;
+position: relative;
+    
+}
+.video_icon h3{
+    
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 25px;
+    
+    
+}
+
+.video_i{
+    color: #ffffff;
+    font-size: 80px;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    padding: 25px;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*============
+
+vadio part hasbeen end 
+==============*/
+
+
+/*========
+
+about part sart 
+============*/
+#our_work{
+    
+    padding: 70px; 0px;
+    
+}
+
+.about_headeing  h5{
+    
+    font-family: 'Playfair Display', bold;
+    font-size: 22px;
+    font-weight: 700;
+    color: #413d4b;
+    text-transform: uppercase;
+    
+}
+
+.about_headeing p{
+  font-family: 'Playfair Display', regular;   
+    font-size: 15px;
+  font-weight: normal;
+    padding-bottom: 20px;    
+    color: #413d4b;
+    position: relative;
+    
+}
+
+.about_headeing p:after{
+content: '';
+width: 50px;
+height: 3px;
+background: #b4abc1;    
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+top: 35px;   
+    
+}
+
+
+/* ==== about service strart */
+.about_img{
+    
+  padding-top: 80px;  
+    
+}
+
+
+
+.about_img img{
+    padding-bottom: 35px;
+    
+}
+
+.about_img h3{
+    font-size: 21px;
+    font-family: 'Roboto', black;
+    color: #929096;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-bottom: 30px;
+    margin-bottom: 0px;
+    
+}
+
+.about_img p{
+    
+    color: #333333;
+     font-family: 'Roboto', light;  
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 22px;
+    padding: 0px 60px;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+/*============
+
+about part hasbeen end 
+
+===========*/
+
+
+
+
+
+/*=========
+imgae slideng part start 
+===========*/
+#team_member{
+    padding: 70px 0px;
+    background: url(img/img/imgae_slider.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+#team_member:after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(73, 58, 108,0.7);
+    
+    
+}
+
+.team_member_text{
+    position: relative;
+    z-index: 100;
+    color: white;
+        
+    
+    
+}
+.team_member_text h3{
+  font-family: 'Roboto', bold;
+font-weight: 700;
+font-size: 23px;
+text-transform: uppercase;
+margin-bottom: 0px;    
+    
+}
+.team_member_text p{
+    
+  font-family: 'Roboto', regular;
+font-weight: normal;
+font-size: 15px;
+position: relative;
+margin-bottom: 0px; 
+    padding-bottom: 70px;
+ 
+    
+}
+.team_member_text p:after{
+    content: '';
+width: 50px;
+height: 3px;
+background: #b4abc1;    
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+top: 35px;   
+ 
+   
+    
+}
+.team_member{
+    z-index: 100;
+   position: relative;
+    text-align: center;
+    padding-bottom: 70px;
+    
+}
+
+
+.team_member h5{
+   font-family: 'Roboto', black;
+    color: white;
+    font-size: 23px;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+}
+.team_member p{
+    
+    font-family: 'Roboto', black;
+    color: white;
+    font-size: 12px;
+    font-weight: normal;
+    padding-bottom: bottom;
+    
+    
+    
+}
+
+.team_card{
+    background: none;
+    border: 2px solid white;
+    
+    
+}
+
+
+.teamtext_bottom{
+    z-index: 100;
+    position: relative;
+    
+    
+    
+}
+
+.teamtext_bottom p{
+  font-family: 'Roboto', light; 
+    font-weight: normal;
+    color: white;
+    font-size: 14px;
+    margin-bottom: 0px;
+    
+}
+
+.teamtext_bottom a{
+    
+   font-family: 'Hammersmith One', sans-serif;
+border:2px solid #00e0d0;
+padding: 14px 30px;
+color: #00e0d0;
+font-weight: 600;    
+text-decoration: none;
+text-transform: uppercase;
+display: inline-block;
+margin-top: 30px; 
+border-radius: 2px;   
+    
+}
+
+.team_slide{
+    position: relative;
+    z-index: 100;
+    padding-bottom: 70px;
+   
+}
+
+
+ .team_slide .slick-dotted{
+    
+    position: absolute;
+   bottom: 20px;
+    
+}
+
+
+
+/*=========
+image slideng part hasbeen end
+=========*/
+
+/*=====
+
+protfolio part start 
+========*/
+#protfoli_part{
+    
+    padding: 70px 0px;
+    
+    
+}
+
+.left_protfolio_text h2{
+    
+    color: #413d4b;
+    font-size: 23px;
+    font-family: 'Playfair Display', bold;
+    text-transform: uppercase;
+    font-weight: 700;
+    
+    
+}
+
+.left_protfolio_text{
+    
+padding-bottom: 70px;
+    
+    
+}
+
+.right_protfolio_text p{
+ 
+  color: #413d4b;
+font-size: 15px;
+    font-family: 'Playfair Display', normal;
+  
+ font-weight: 300; 
+      
+    
+    
+}
+
+.right_protfolio_text a.icon{
+    
+    font-size: 18px;
+    margin-top: 0px;
+    position: absolute;
+display: inline-block;
+    
+}
+
+
+.prtpolio_more{
+    
+    padding: 70px 0px;
+    
+}
+
+
+.prtpolio_more a{
+    font-family: 'Hammersmith One', sans-serif;
+border:2px solid #00e0d0;
+padding: 14px 30px;
+color: #00e0d0;
+font-weight: 600;    
+text-decoration: none;
+text-transform: uppercase;
+display: inline-block;
+ 
+border-radius: 2px;  
+    
+    
+}
+
+
+
+/*========
+protfolio part end 
+===========*/
+
+
+
+/*==========
+testmonialpart strat 
+===========*/
+#testimonial_part{
+    
+    padding: 70px 0px;
+    background: url(img/img/testimonial.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+    background-position: center;
+    position: relative;
+    
+}
+
+#testimonial_part:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(37, 29, 67,0.8);
+    
+    
+}
+
+
+.testimonial_text{
+    
+    z-index: 100;
+    color: white;
+    position: relative;
+    
+}
+
+.testimonial_text p{
+    padding: 0px 106px;
+    line-height: 20px;
+    font-family: 'Playfair Display', regular;
+    font-size: 14px;
+    font-weight: normal;
+    color: #ffffff;
+    padding-top: 40px;
+    
+}
+
+.testimonial_text h3{
+    font-family: 'Roboto', black;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+    padding-top: 50px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    
+    
+    
+}
+
+.testimonial_text h5{
+    font-size: 12px;
+     font-family: 'Roboto', light;
+    color: #ffffff;
+    font-weight: 300;
+    padding-top: 10px;
+    margin: 0px;
+    
+    
+}
+
+.testimonial_image{
+    z-index: 100;
+    position: relative;
+    
+    
+}
+.testimonial_image img{
+    
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    
+}
+
+
+.testimonial_image_slide{
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 30px;
+    z-index: 100;
+    position: relative;
+    
+    
+}
+
+.testimonal_text_slide{
+    z-index: 100;
+    position: relative;
+    
+    
+}
+
+
+
+.right_arrow {
+    z-index: 100;
+    position: absolute;
+    font-size: 15px;
+    color: #fff;
+    font-size: 23px;
+    left: 69%;
+    top: 73%;
+    cursor: pointer;
+}
+
+.left_arrow {
+    z-index: 100;
+    position: absolute;
+    font-size: 23px;
+    color: #fff;
+    left: 30%;
+    top: 73%;
+    cursor: pointer;
+}
+.slick-center .testimonial_image img{
+    border: 2px solid gray;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    transition: all 2s ease;
+    
+    
+}
+
+/*========
+
+testimonalpart end
+=====*/
+
+/*=========
+contart area start
+===========*/
+#contarct_part{
+    
+    padding: 70px 0px;
+    
+    
+    
+}
+
+
+.btn_login{
+    padding: 15px 20px;
+    border: 2px solid #00e0d0;
+    color: #00e0d0;
+    font-weight: 500;
+    font-family: 'Hammersmith One', sans-serif;
+    border-radius: 2px;
+    
+    
+}
+.contact_area_login h2,
+.contact_comany h2{
+
+
+    
+ font-family: 'Playfair Display', bold;
+font-size: 23px;
+    text-transform: uppercase;
+padding-bottom: 20px;
+    
+}
+
+
+
+
+/*==========
+contart area end 
+===========*/
+
+
+
+/*=========
+footer area start
+=========*/
+
+#footer_Part{
+    
+     padding: 70px 0px;
+    /*background: url(img/img/footer.jpg);*/
+    background-repeat: no-repeat;
+   background-size: cover;
+    background-position: center;
+    position: relative;
+    
+    
+    
+}
+
+#footer_Part:after{
+    
+  content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(37, 29, 67,0.5);
+    
+   
+}
+
+
+
+.footer_top_content{
+  z-index: 100;
+    position: relative;
+    color: white;
+   
+    
+    
+}
+
+.footer_top_left img,
+.footer_top_middle h4 {
+ 
+    
+    padding-bottom: 40px;
+  
+   
+}
+
+.footer_top_content h4{
+    
+    padding-bottom: 40px;
+    font-weight: 700;
+   font-family: 'Playfair Display', bold;
+    font-size: 23px;
+    text-transform: uppercase;
+}
+
+
+
+.footer_top_left p{
+   padding: 0px 30px;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+
+    
+}
+
+
+.footer_top_middle p{
+    padding: 0px 20px;
+    font-size: 14px;
+    font-weight: normal;
+   
+    
+    
+}
+
+.footer_right li{
+    
+   
+    width: 40px;
+    height: 40px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+   line-height: 40px;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+.footer_right button{
+     
+    font-size: 25px;
+    background: #a19ab4;
+    color: gray;
+    
+}
+.footer_right li::hover{
+    transform: rotate(360dg);
+    transition: 2s;
+}
+.footer_right li a{
+color: #ffffff;
+
+}
+
+.send-input{
+    
+background: transparent;
+    border-radius: 0px;
+    color: #ffffff;
+    padding-left: 0px;
+    
+    
+    
+}
+
+.send_button{
+    
+   border: 1px solid #ffffff;
+    color: #ddd;
+    background: gray;
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+.footer_bottom{
+    z-index: 100;
+    position: relative;
+    color: white;
+    
+    
+}
+
+.footer_bottom_left li{
+    
+    float: left;
+  overflow: hidden;
+    margin-right: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+.footer_bottom_left li a{
+    
+    color: white;
+}
+
+
+.footer_bottom_right p {
+    
+     font-size: 14px;
+    font-weight: normal;
+   font-family: 'Roboto', light;
+    margin-top: 30px;
+    margin-left: 60px;
+    
+}
+
+
+/*=======
+footer area end
+========*/
+
+/*=========
+pre loader area start 
+
+=========*/
+.reolader{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background: white;
+        
+    
+    
+}
+
+
+.reolader img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+    
+    
+} 
+
+
+
+/*========
+pre loader area end 
+=========*/
+/*=======
+prelax area 
+===========*/
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 200;
+}
+
+
+
+
+/*========
+font-family: 'Roboto', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Hammersmith One', sans-serif;
+========*/
+
+
+
+
+
+
+
+
+
+    
+
